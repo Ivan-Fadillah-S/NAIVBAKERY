@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NAIV</title>
+    <link rel="stylesheet" href="/static/style.css" />
+
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lalezar&family=Poppins:wght@100;300;400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- feather icons -->
+    <script src="https://unpkg.com/feather-icons"></script>
+  </head>
+  <body>
+    <!-- navbar -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo">NA<span>IV</span></a>
+      <div class="navbar-nav">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#produk">Product</a>
+        <a href="#contact">Contact</a>
+      </div>
+
+      <div class="navbar-extra">
+        <a href="#" id="search"><i data-feather="search"></i></a>
+        <a href="#" id="hamburger-menu"><i data-feather="menu"></i></a>
+      </div>
+    </nav>
+
+    <!-- hero -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>
+          <span class="brand">NA</span>IV
+          <span class="sub">Bakery Ingredients</span>
+        </h1>
+        <p>Kualitas Terbaik untuk Setiap Kreasi Kue Anda.</p>
+        <a
+          href="https://www.tokopedia.com/naivbakeryin"
+          class="cta"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          Tokopedia
+        </a>
+        <a
+          href="https://shopee.co.id/naivbakery"
+          class="ctas"
+          target="_blank"
+          rel="noopener noreferrer"
+          >Shopee</a
+        >
+      </main>
+    </section>
+
+    <!-- about -->
+    <section id="about" class="about">
+      <h2><span>Toko apa</span>kah Kami?</h2>
+
+      <div class="row">
+        <div class="about-img">
+          <img src="/static/img/naiv.jpg" alt="Tentang Kami" />
+        </div>
+        <div class="content">
+          <p>
+            Kami adalah toko bahan kue yang mulai berdiri sejak tahun 2020
+            dengan berjualan melalui platform online shop Tokopedia dan Shopee,
+            kemudian pada tahun 2021 kami juga mendirikan toko offline untuk
+            melayani pelanggan secara langsung. <br /><br />Kami menjual
+            berbagai bahan untuk membuat kue dan roti - lengkap, berkualitas,
+            dan terpercaya. Di NAIV, kamu bisa menemukan cokelat, mentega,
+            tepung, susu, hingga bahan pelengkap lainnya untuk baking. Cocok
+            banget buat kamu yang suka baking di rumah, punya usaha kue, atau
+            butuh stok bahan dalam jumlah besar. <br /><br />Belanja praktis,
+            harga bersaing, dan pengiriman cepat. Yuk, lengkapi kebutuhan
+            baking-mu di NAIV!
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- produk -->
+    <section id="produk" class="produk">
+      <h2><span>Produk</span> yang Kami jual</h2>
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="cari produk..." />
+        <label for="search-box"><i data-feather="search"></i></label>
+      </div>
+
+      <div class="row">
+        <div class="card">
+          <img src="/static/produk/1.png" alt="Colatta" class="img" />
+          <p class="title">Collata Dark Chocolate Compound (1Kg)</p>
+          <h4 class="price">Rp 61.000</h4>
+        </div>
+
+        <div class="card">
+          <img src="/static/produk/2.png" alt="Tepung Maizena" class="img" />
+          <p class="title">Tepung Maizena <br />300Gr</p>
+          <h4 class="price">Rp 10.000</h4>
+        </div>
+        <div class="card">
+          <img
+            src="/static/produk/3.png"
+            alt="Susu Kental Manis Bendera Coklat"
+            class="img"
+          />
+          <p class="title">Susu Kental Manis Bendera Coklat 370Gr</p>
+          <h4 class="price">Rp 14.000</h4>
+        </div>
+        <div class="card">
+          <img
+            src="/static/produk/4.png"
+            alt="Pudding Susu Nutrijell Stroberi"
+            class="img"
+          />
+          <p class="title">Pudding Susu Nutrijell Stroberi 145 Gr</p>
+          <h4 class="price">Rp 12.600</h4>
+        </div>
+        <div class="card">
+          <img
+            src="/static/produk/5.png"
+            alt="Pudding Susu Nutrijell Capuccuino 145 Gr"
+            class="img"
+          />
+          <p class="title">Pudding Susu Nutrijell Capuccuino 145 Gr</p>
+          <h4 class="price">Rp 12.600</h4>
+        </div>
+        <div class="card">
+          <img
+            src="/static/produk/6.png"
+            alt="Pudding Susu Nutrijell Capuccuino 120 Gr"
+            class="img"
+          />
+          <p class="title">Pudding Susu Nutrijell Capuccuino 120 Gr</p>
+          <h4 class="price">Rp 12.600</h4>
+        </div>
+        <div class="card">
+          <img
+            src="/static/produk/7.png"
+            alt="Pudding Lapis Nutrijell Gula Jawa"
+            class="img"
+          />
+          <p class="title">Pudding Lapis Nutrijell Gula Jawa 100Gr</p>
+          <h4 class="price">Rp 12.600</h4>
+        </div>
+        <div class="card">
+          <img
+            src="/static/produk/8.png"
+            alt="Tepung Beras Bola Deli"
+            class="img"
+          />
+          <p class="title">Tepung Beras Bola Deli 500Gr</p>
+          <h4 class="price">Rp 9.300</h4>
+        </div>
+        <div class="card">
+          <img
+            src="/static/produk/9.png"
+            alt="Instants Yeast/Ragi Angel"
+            class="img"
+          />
+          <p class="title">Instants Yeast/Ragi Angel 4x11Gr</p>
+          <h4 class="price">Rp 23.000</h4>
+        </div>
+        <div class="card">
+          <img
+            src="/static/produk/10.png"
+            alt="SP Pengemulsi Koepoe"
+            class="img"
+          />
+          <p class="title">SP Pengemulsi Koepoe Koepoe 30Gr</p>
+          <h4 class="price">Rp 11.500</h4>
+        </div>
+        <div class="card">
+          <img
+            src="/static/produk/11.png"
+            alt="Flavour Strawberry Koepoe Koepoe"
+            class="img"
+          />
+          <p class="title">Flavour Strawberry - Koepoe Koepoe 25Ml</p>
+          <h4 class="price">Rp 8.800</h4>
+        </div>
+        <div class="card">
+          <img
+            src="/static/produk/12.png"
+            alt="Pewarna Makanan Koepoe Koepoe Merah Tua"
+            class="img"
+          />
+          <p class="title">Pewarna Makanan Koepoe Merah Tua 30Ml</p>
+          <h4 class="price">Rp 7.200</h4>
+        </div>
+        <div class="card">
+          <img
+            src="/static/produk/13.png"
+            alt="Pewarna Makanan Koepoe Koepoe Hijau Tua"
+            class="img"
+          />
+          <p class="title">Pewarna Makanan Koepoe Hijau Tua 30Ml</p>
+          <h4 class="price">Rp 7.200</h4>
+        </div>
+        <div class="card">
+          <img
+            src="/static/produk/14.png"
+            alt="Blue Band Margarine Serbaguna"
+            class="img"
+          />
+          <p class="title">Blue Band Margarine Serbaguna 200 Gr</p>
+          <h4 class="price">Rp 12.500</h4>
+        </div>
+        <div class="card">
+          <img
+            src="/static/produk/15.png"
+            alt="Nutrijell Jelly Powder Rasa Jeruk"
+            class="img"
+          />
+          <p class="title">Nutrijell Jelly Powder Rasa Jeruk 15Gr</p>
+          <h4 class="price">Rp 7.500</h4>
+        </div>
+        <div class="card">
+          <img
+            src="/static/produk/16.png"
+            alt="My Via Nutrijell Rasa Vanilla"
+            class="img"
+          />
+          <p class="title">My Via Nutrijell Rasa Vanilla 63Gr</p>
+          <h4 class="price">Rp 7.700</h4>
+        </div>
+        <div class="card">
+          <img
+            src="/static/produk/17.png"
+            alt="Agar-Agar Swallow Globe Brand Putih"
+            class="img"
+          />
+          <p class="title">Agar-Agar Swallow Globe Brand Putih 7Gr</p>
+          <h4 class="price">Rp 5.500</h4>
+        </div>
+        <div class="card">
+          <img
+            src="/static/produk/18.png"
+            alt="Flavour Coklat Koepoe Koepoe"
+            class="img"
+          />
+          <p class="title">Flavour Coklat Koepoe Koepoe 25Ml</p>
+          <h4 class="price">Rp 8.800</h4>
+        </div>
+        <div class="card">
+          <img
+            src="/static/produk/19.png"
+            alt="Fermipan Instant Yeast"
+            class="img"
+          />
+          <p class="title">Fermipan Instant Yeast 4x11Gr</p>
+          <h4 class="price">Rp 28.000</h4>
+        </div>
+        <div class="card">
+          <img
+            src="/static/produk/20.png"
+            alt="Goldenfild Selai Blueberry"
+            class="img"
+          />
+          <p class="title">Goldenfild Selai Blueberry 1Kg</p>
+          <h4 class="price">Rp 46.000</h4>
+        </div>
+        <div class="card">
+          <img
+            src="/static/produk/21.png"
+            alt="Goldenfild Selai Blueberry"
+            class="img"
+          />
+          <p class="title">Goldenfild Selai Blueberry 1Kg</p>
+          <h4 class="price">Rp 43.000</h4>
+        </div>
+        <div class="card">
+          <img
+            src="/static/produk/22.png"
+            alt="Tepung Ketan - Bola Deli"
+            class="img"
+          />
+          <p class="title">Tepung Ketan - Bola Deli 500Gr</p>
+          <h4 class="price">Rp 14.000</h4>
+        </div>
+        <div class="card">
+          <img
+            src="/static/produk/23.png"
+            alt="Saus Tomat/Tomato Ketchup ABC"
+            class="img"
+          />
+          <p class="title">Saus Tomat/Tomato Ketchup ABC 135Ml</p>
+          <h4 class="price">Rp 7.000</h4>
+        </div>
+        <div class="card">
+          <img
+            src="/static/produk/24.png"
+            alt="Mayonais Maestro Pouch"
+            class="img"
+          />
+          <p class="title">Mayonais Maestro Pouch 1Kg</p>
+          <h4 class="price">Rp 31.800</h4>
+        </div>
+        <div class="card">
+          <img
+            src="/static/produk/25.png"
+            alt="NesCafe Classic Sachet"
+            class="img"
+          />
+          <p class="title">NesCafe Classic Sachet 10X2Gr</p>
+          <h4 class="price">Rp 6.400</h4>
+        </div>
+        <div class="card">
+          <img
+            src="/static/produk/26.png"
+            alt="Saus Cabe Dua Belibis Pouch"
+            class="img"
+          />
+          <p class="title">Saus Cabe Dua Belibis Pouch 1Kg</p>
+          <h4 class="price">Rp 45.000</h4>
+        </div>
+        <div class="card">
+          <img
+            src="/static/produk/27.png"
+            alt="Gula Halus Claris"
+            class="img"
+          />
+          <p class="title">Gula Halus Claris <br />250Gr</p>
+          <h4 class="price">Rp 7.000</h4>
+        </div>
+        <div class="card">
+          <img
+            src="/static/produk/28.png"
+            alt="Sariwangi teh celup 100% Teh Asli"
+            class="img"
+          />
+          <p class="title">Sariwangi teh celup 100% Teh Asli 185Gr</p>
+          <h4 class="price">Rp 23.000</h4>
+        </div>
+        <div class="card">
+          <img
+            src="/static/produk/29.png"
+            alt="Lipton Yellow Label Tea Non Eveloped"
+            class="img"
+          />
+          <p class="title">Lipton Yellow Label Tea Non Eveloped 200Gr</p>
+          <h4 class="price">Rp 55.000</h4>
+        </div>
+        <div class="card">
+          <img
+            src="/static/produk/30.png"
+            alt="HAAN Ice Cream Mix Chocolate"
+            class="img"
+          />
+          <p class="title">HAAN Ice Cream Mix Chocolate 90Gr</p>
+          <h4 class="price">Rp 14.300</h4>
+        </div>
+        <div class="card">
+          <img
+            src="/static/produk/31.png"
+            alt="Agar-Agar Swallow Globe Brand Coklat"
+            class="img"
+          />
+          <p class="title">Agar-agar SWallow Globe Brand Coklat 7Gr</p>
+          <h4 class="price">Rp 5.500</h4>
+        </div>
+        <div class="card">
+          <img
+            src="/static/produk/32.png"
+            alt="Agar-Agar Swallow Globe Brand Hijau"
+            class="img"
+          />
+          <p class="title">Agar-agar SWallow Globe Brand Hijau 7Gr</p>
+          <h4 class="price">Rp 5.500</h4>
+        </div>
+        <div class="card">
+          <img
+            src="/static/produk/33.png"
+            alt="SP Pengemulsi Koepoe"
+            class="img"
+          />
+          <p class="title">SP Pengemulsi Koepoe Koepoe 70Gr</p>
+          <h4 class="price">Rp 15.400</h4>
+        </div>
+        <div class="card">
+          <img src="/static/produk/34.png" alt="MaxTea Lemon Tea" class="img" />
+          <p class="title">MaxTea Lemon Tea 750Gr (30 Sachet@25)</p>
+          <h4 class="price">Rp 37.500</h4>
+        </div>
+        <div class="card">
+          <img
+            src="/static/produk/35.png"
+            alt="Indocafe Original Blend Instant Coffe"
+            class="img"
+          />
+          <p class="title">Indocafe Original Blend Instant Coffe 100Gr</p>
+          <h4 class="price">Rp 39.600</h4>
+        </div>
+        <div class="card">
+          <img
+            src="/static/produk/36.png"
+            alt="Gula Kastor Icing - Darnel"
+            class="img"
+          />
+          <p class="title">Gula Kastor Icing - Darnel 500Gr</p>
+          <h4 class="price">Rp 20.300</h4>
+        </div>
+        <div class="card">
+          <img
+            src="/static/produk/37.png"
+            alt="Macaroni Jos Rasa Original"
+            class="img"
+          />
+          <p class="title">Macaroni Jos Rasa Original 100Gr</p>
+          <h4 class="price">Rp 10.000</h4>
+        </div>
+        <div class="card">
+          <img
+            src="/static/produk/38.png"
+            alt="Macaroni Jos Rasa Jeruk"
+            class="img"
+          />
+          <p class="title">Macaroni Jos Rasa Jeruk 100Gr</p>
+          <h4 class="price">Rp 10.000</h4>
+        </div>
+        <div class="card">
+          <img
+            src="/static/produk/39.png"
+            alt="Macaroni Jos Rasa Pedas Lvl 5"
+            class="img"
+          />
+          <p class="title">Macaroni Jos Rasa Pedas Lvl 5 100Gr</p>
+          <h4 class="price">Rp 10.000</h4>
+        </div>
+        <div class="card">
+          <img
+            src="/static/produk/40.png"
+            alt="Macaroni Jos Rasa Tomyam"
+            class="img"
+          />
+          <p class="title">Macaroni Jos Rasa Tomyam 100Gr</p>
+          <h4 class="price">Rp 10.000</h4>
+        </div>
+      </div>
+    </section>
+
+    <!-- kontak -->
+    <section id="contact" class="contact">
+      <h2><span>Kontak</span> Kami</h2>
+
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.03866453497!2d106.9766131!3d-6.2586374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e698d622f03573d%3A0x72647e685b1ff5e2!2sNaiv%20Bakery%20Ingredients!5e0!3m2!1sen!2sid!4v1752995096383!5m2!1sen!2sid"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="map"
+        ></iframe>
+
+        <link rel="stylesheet" href="/static/style.css" />
+
+        <form action="/contact" method="POST">
+          <div class="input">
+            <i data-feather="user"></i>
+            <input type="text" name="nama" placeholder="nama" required />
+          </div>
+          <div class="input">
+            <i data-feather="mail"></i>
+            <input type="email" name="email" placeholder="email" required />
+          </div>
+          <div class="input">
+            <i data-feather="phone"></i>
+            <input type="text" name="nohp" placeholder="no hp" required />
+          </div>
+          <div class="input">
+            <i data-feather="message-square"></i>
+            <input type="text" name="pesan" placeholder="pesan" required />
+          </div>
+          <button type="submit" class="btn">Kirim</button>
+        </form>
+
+        <script src="/static/script.js"></script>
+      </div>
+    </section>
+
+    <footer>
+      <div class="social">
+        <a
+          href="https://shopee.co.id/naivbakery"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            id="shopee"
+            src="/static/img/shopee.png"
+            alt="shopee"
+            style="cursor: pointer"
+          />
+        </a>
+        <a
+          href="https://www.tokopedia.com/naivbakeryin"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            class="tkpd"
+            id="tokped"
+            src="/static/img/tokped.png"
+            alt="tokped"
+            style="cursor: pointer"
+          />
+        </a>
+      </div>
+
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#produk">Produk</a>
+        <a href="#contact">Kontak</a>
+      </div>
+      <div class="credit">
+        <p>Created by <a hred="">IvanFS</a> | &copy; 2025.</p>
+      </div>
+    </footer>
+
+    <!-- feather icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- js -->
+    <script src="/static/script.js"></script>
+  </body>
+</html>
